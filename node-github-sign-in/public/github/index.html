@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://github.com/BeyondCodeBootcamp/live-code/tree/main/node-github-sign-in">GitHub Sign In Demo</a>
+        </nav>
+        <ul>
+            <li>
+                <a href="https://github.com/BeyondCodeBootcamp/live-code/tree/main/node-github-sign-in" target="_blank">GitHub ↗</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <!-- redirect_uri=encodeURIComponent("https://beyondcode.duckdns.org/api/webhooks/oauth2/github") -->
+            <!-- scope=encodeURIComponent("read:user%20user:email") -->
+            <a href="https://github.com/login/oauth/authorize?client_id=0b7cdfa2fde2f019a3b5&redirect_uri=https%3A%2F%2Fbeyondcode.duckdns.org%2Fapi%2Fwebhooks%2Foauth2%2Fgithub&scope=read:user%20user:email&state=1234567890&allow_signup=true&login=">
+                <i>GitHub Sign In</i>
+            </a>
+        </section>
+    </main>
+</body>
+</html>
