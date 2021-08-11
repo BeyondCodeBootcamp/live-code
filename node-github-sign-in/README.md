@@ -21,6 +21,12 @@ git clone https://github.com/BeyondCodeBootcamp/live-code
 pushd ./live-code/node-github-sign-in
 ```
 
+Configure:
+
+```bash
+rsync -avhP example.env .env
+```
+
 Start the demo:
 
 ```bash
